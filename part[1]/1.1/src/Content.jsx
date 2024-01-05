@@ -1,17 +1,11 @@
-const Content = ({ part1, part2, part3, exercises1, exercises2, exercises3 }) => {
-   return (
-  <>
-    <p>
-        {part1} {exercises1}
-      </p>
+const Content = ({ part, exercises }) => {
+  return (
+    <>
       <p>
-        {part2} {exercises2}
+        {part} {exercises}
       </p>
-      <p>
-        {part3} {exercises3}
-      </p>
-  </>
-   )
+    </>
+  )
 }
 
 export default Content;
